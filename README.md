@@ -3,7 +3,21 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a5f88acd05b8c0cc9347/maintainability)](https://codeclimate.com/github/Maksonik/frontend-project-44/maintainability)
 
-### Как пользоваться?
+## Описание
+
+Привет! Добро пожаловать в набор консольных игр. Здесь вы найдете несколько увлекательных игр, которые можно запустить прямо из вашего терминала. Проект создан в рамках обучения на Hexlet.
+
+## Установка
+
+Для начала игры вам понадобится Node.js версии 14 или выше. Если у вас его нет, вы можете скачать его с [официального сайта](https://nodejs.org/).
+
+После установки Node.js выполните следующие команды:
+
+```sh
+git clone https://github.com/Maksonik/frontend-project-44.git
+cd frontend-project-44
+npm install
+```
 
 Игра "Проверка на чётность"
 
