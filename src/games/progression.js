@@ -29,7 +29,7 @@ const genereteRound = () => {
 };
 
 const runProgressionGame = () => {
-  runGame(generateRound, description);
+  runGame(genereteRound, description);
 };
 
 export default runProgressionGame;

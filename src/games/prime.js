@@ -17,7 +17,7 @@ const genereteRound = () => {
 };
 
 const runPrimeGame = () => {
-  runGame(generateRound, description);
+  runGame(genereteRound, description);
 };
 
 export default runPrimeGame;

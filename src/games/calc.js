@@ -32,7 +32,7 @@ const genereteRound = () => {
 };
 
 const runCalcGame = () => {
-  runGame(generateRound, description);
+  runGame(genereteRound, description);
 };
 
 export default runCalcGame;

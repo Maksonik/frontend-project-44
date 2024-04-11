@@ -12,7 +12,7 @@ const genereteRound = () => {
 };
 
 const runEvenGame = () => {
-  runGame(generateRound, description);
+  runGame(genereteRound, description);
 };
 
 export default runEvenGame;

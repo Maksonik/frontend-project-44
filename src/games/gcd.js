@@ -18,7 +18,7 @@ const genereteRound = () => {
 };
 
 const runGcdGame = () => {
-  runGame(generateRound, description);
+  runGame(genereteRound, description);
 };
 
 export default runGcdGame;
