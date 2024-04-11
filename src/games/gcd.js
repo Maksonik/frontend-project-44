@@ -1,5 +1,5 @@
 import getRandomNumber from '../utils.js';
-import runGameLogic, { roundsNumber } from '../gameLogic.js';
+import runGame, { roundsNumber } from '../gameLogic.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 
@@ -18,11 +18,7 @@ const genereteRound = () => {
 };
 
 const runGcdGame = () => {
-  const rounds = [];
-  for (let i = 0; i < roundsNumber; i += 1) {
-    rounds[i] = genereteRound();
-  }
-  return runGameLogic(rounds, description);
+  runGame(generateRound, description);
 };
 
 export default runGcdGame;

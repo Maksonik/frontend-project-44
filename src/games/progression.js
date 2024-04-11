@@ -1,5 +1,5 @@
 import getRandomNumber from '../utils.js';
-import runGameLogic, { roundsNumber } from '../gameLogic.js';
+import runGame, { roundsNumber } from '../gameLogic.js';
 
 const description = 'What number is missing in the progression?';
 const lengthProgression = 10;
@@ -29,11 +29,7 @@ const genereteRound = () => {
 };
 
 const runProgressionGame = () => {
-  const rounds = [];
-  for (let i = 0; i < roundsNumber; i += 1) {
-    rounds[i] = genereteRound();
-  }
-  return runGameLogic(rounds, description);
+  runGame(generateRound, description);
 };
 
 export default runProgressionGame;
