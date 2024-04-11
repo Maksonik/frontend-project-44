@@ -19,6 +19,13 @@ cd frontend-project-44
 npm install
 ```
 
+
+Потом используете команду 
+
+```npm link```
+
+### Готово! Теперь можно начинать играть!
+
 Игра "Проверка на чётность"
 
 [![asciicast](https://asciinema.org/a/gz7D5IJyRjZU2IT9szXuuSnKJ.svg)](https://asciinema.org/a/gz7D5IJyRjZU2IT9szXuuSnKJ)
