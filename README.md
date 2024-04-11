@@ -22,26 +22,48 @@ npm install
 
 Потом используете команду 
 
-```npm link```
+```sh
+npm link
+```
 
 ### Готово! Теперь можно начинать играть!
 
 Игра "Проверка на чётность"
 
+```sh
+brain-even
+```
+
 [![asciicast](https://asciinema.org/a/gz7D5IJyRjZU2IT9szXuuSnKJ.svg)](https://asciinema.org/a/gz7D5IJyRjZU2IT9szXuuSnKJ)
 
 Игра "Калькулятор"
+
+```sh
+brain-calc
+```
 
 [![asciicast](https://asciinema.org/a/Iu0NUBHgRBm1tDfUifzq3d9u8.svg)](https://asciinema.org/a/Iu0NUBHgRBm1tDfUifzq3d9u8)
 
 Игра "НОД"
 
+```sh
+brain-gcd
+```
+
 [![asciicast](https://asciinema.org/a/6SjJDrp3d3LOM8Ma5IFw9E8mV.svg)](https://asciinema.org/a/6SjJDrp3d3LOM8Ma5IFw9E8mV)
 
 Игра "Арифметическая прогрессия"
 
+```sh
+brain-progression
+```
+
 [![asciicast](https://asciinema.org/a/wjJc1wiXgyB6u6fGSPd411HXu.svg)](https://asciinema.org/a/wjJc1wiXgyB6u6fGSPd411HXu)
 
 Игра "Простое ли число?"
+
+```sh
+brain-prime
+```
 
 [![asciicast](https://asciinema.org/a/jEJxNAkdnMxZk6J6o3Gnf07Y9.svg)](https://asciinema.org/a/jEJxNAkdnMxZk6J6o3Gnf07Y9)
