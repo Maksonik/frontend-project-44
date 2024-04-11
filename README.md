@@ -15,6 +15,9 @@
 
 ```sh
 git clone https://github.com/Maksonik/frontend-project-44.git
+```
+Как установиться, выполните следующий код
+```sh
 cd frontend-project-44
 npm install
 ```
