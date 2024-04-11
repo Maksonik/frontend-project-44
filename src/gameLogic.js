@@ -12,7 +12,7 @@ const runGame = (roundsGenerator, description) => {
   for (let i = 0; i < roundsNumber; i += 1) {
     rounds[i] = roundsGenerator();
   }
-  
+
   for (let i = 0; i < roundsNumber; i += 1) {
     const [question, answer] = rounds[i];
     console.log(`Question: ${question}`);
@@ -32,4 +32,3 @@ const runGame = (roundsGenerator, description) => {
 };
 
 export default runGame;
-
